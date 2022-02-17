@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+    <HTML>
+
+        <head> 
+            <meta charset= "utf-8">
+            <title>Week 4 Forms</title>
+        </head>
+
+        <body>
+            <h1>Takeout Form</h1>
+            <form action="" method="post"></form>    <!-- we always use "post" for method-->
+
+            <label for="fullname">Full Name</label>
+            <input type="text" name="fullname" id="fullname"> <br>
+            
+            <label for="orderitem">Order Item</label>
+            <input type="text" name="orderitem" id="orderitem"> <br>
+            
+            <label for="specialrequests">Special Requests</label>
+            <textarea name="specialrequests" id="specialrequests" cols="30" rows="10"></textarea> <br>
+
+            <p>How do you want to pay?</p>
+            <label for="payinstore">Pay in store</label>
+            <input type="radio" id="instore" name="howpay">
+            <label for="payonline">Pay online</label>
+            <input type="radio" id="online" name="howpay"><br>
+
+            <p>Add condiments?</p>
+            <label for="bbq">BBQ Sauce</label>
+            <input type="checkbox" id="bbq" name="bbq">
+            <label for="kethcup">Ketchup</label>
+            <input type="checkbox" id="ketchup" name="ketchup"> <br>
+
+            <label for="pickup">Pickup Time</label>
+            <select name="pickup" id="pickup">
+                <option value="Morning">Morning</option>
+                <option value="Afternoon">Afternoon</option>
+                <option value="Evening">Evening</option>
+            </select> <br>
+
+            <input type="submit" value="send order">  <!--Input is a void tag. AKA NO close-->
+        </body>
+
+
+    </HTML>
