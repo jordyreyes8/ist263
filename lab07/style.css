@@ -1,0 +1,18 @@
+body {font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #E6D5B8;
+
+}
+
+h1, h2 {color: #E45826;}
+p {color: #1B1A17}
+
+a, a:visited, a:hover {color: #F0A500;}
+
+nav {background-color: #E45826;
+    padding: 10px; 
+    margin-bottom: 30px;
+}
+nav a {color:#F0A500}
+nav a:hover {color:#E6D5B8}
+
+
