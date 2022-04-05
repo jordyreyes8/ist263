@@ -27,7 +27,7 @@ nav a:hover {color:#E6D5B8}
 .flex , .flex2 {display: flex;}
 
 .flex {
-    flex-basis: 200px;
+    flex: 1;
     justify-content: space-evenly;
 }
 
@@ -39,5 +39,6 @@ nav a:hover {color:#E6D5B8}
 
 .flex2 {
     flex-basis: 75%;
+    flex: 1;
     justify-content: space-between;
 }
