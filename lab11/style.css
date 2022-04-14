@@ -1,0 +1,67 @@
+body {font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #e9e5de;
+
+}
+h1 {text-align: center;}
+
+h1, h2 {color: #E45826;}
+p {color: #1B1A17}
+
+a, a:visited, a:hover {color: #F0A500;}
+
+nav {background-color: #E45826;
+    padding: 10px; 
+    margin-bottom: 30px;
+}
+nav a {color:#F0A500}
+nav a:hover {color:#E6D5B8}
+
+.footertext {float:right;}
+
+.contactinfo p {float: left;}
+
+.clear{clear:both;}
+
+.imglogo {width: 50px;}
+
+.flex , .flex2 {display: flex;}
+
+.flex {
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.otherSkills {
+    background-color: #E6D5B8;
+    border-radius: 10px;                /*Creates Rounded Corners*/
+
+}
+
+.flex2 {
+    flex-basis: 75%;
+    flex: 1;
+    justify-content: space-between;
+}
+
+
+.flexwrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skip {
+    position: absolute; /*absolute means take it out page flow, use left to set position*/
+    left: -999px;
+    background-color: orange;
+    padding: 5px;
+}
+#skip:focus{
+    left: 10px;
+}
+
+@media only screen and (max-width: 800px)   {
+    .mobilebanner{max-width: 100%;}
+    nav a {max-width: 100%;
+    display: block;}
+    span {display: none;}
+    }

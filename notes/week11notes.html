@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /*
+        1. HTML link to anchor to our content area
+        2. Put an id attrivute into the place you want the achor to go
+        3. Hide and show skip to content
+        4. Style the skip to content link
+        */
+
+        #skip {
+            position: absolute; /*absolute means take it out page flow, use left to set position*/
+            left: -999px;
+            background-color: orange;
+            padding: 5px;
+        }
+        #skip:focus{
+            left: 10px;
+        }
+
+        .welcome{
+            display: flex;
+            justify-content: center;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="welcome">Hello World</div> <!--Center the following div tag-->
+
+    <nav>
+        <a href="#content" id="skip"></a>
+        <a href="twitter.com" tabindex="4">Twitter</a>
+        <a href="index.html" tabindex="1">Home</a>
+        <a href="skills.html" tabindex="2">Skills</a>
+        <a href="contact.html" tabindex="3">Contact</a>
+    </nav>
+
+    <main>
+        <img src="image.jpg" alt="">
+        <h1>Accessibility</h1>
+            <h2>Semantic Tags</h2>
+                <h3>Aside</h3>
+                <h3>Nav</h3>
+                <h3>Footer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloribus est, maiores dolorem harum natus dicta, eum tenetur illo, quod doloremque ipsa incidunt. Optio nobis molestiae, esse nisi perferendis ab?</p>
+            <h2>Heading Tags in Hierarchy</h2>
+
+
+    </main>
+
+    <footer>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis quo, quasi totam illo dolores natus dicta reiciendis, id veritatis ullam neque minus quod assumenda ipsam vitae architecto. Velit, et praesentium?</p>
+    </footer>
+    
+</body>
+</html>
