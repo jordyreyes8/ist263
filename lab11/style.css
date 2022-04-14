@@ -7,14 +7,14 @@ h1 {text-align: center;}
 h1, h2 {color: #E45826;}
 p {color: #1B1A17}
 
-a, a:visited, a:hover {color: #E6D5B8;}
+a, a:visited, a:hover {color: black;}
 
 nav {background-color: #E45826;
     padding: 10px; 
     margin-bottom: 30px;
 }
-nav a {color:#E6D5B8}
-nav a:hover {color:rgb(0, 0, 0)}
+nav a {color:black}
+nav a:hover {color: #E6D5B8}
 
 .footertext {float:right;}
 
