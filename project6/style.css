@@ -7,10 +7,15 @@ h2 {text-align: center;}
 li {display:flex;
     justify-content: space-evenly;
     align-items: center;
+    font-size: 120%;
+    text-align;
 }
 
 
-h1, h2 {color: black;}
+h1, h2 {color: black;
+    font-family: 'Libre Bodoni', serif;
+    font-style: italic;
+}
 p {color: hsl(45, 8%, 10%);
     margin-left: 20px;
     margin-right: 40px;
@@ -28,7 +33,10 @@ nav {background-color: #E45826;
     align-items: center;
 }
 nav a {color:black;
-text-decoration: none;}
+text-decoration: none;
+font-family: 'Libre Bodoni', serif;
+font-size: 120%;
+}
 nav a:hover {color: #E6D5B8;}
 
 
@@ -64,6 +72,7 @@ nav a:hover {color: #E6D5B8;}
     left: 10px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;1,600&display=swap');
 
 @media only screen and (max-width: 800px)   {
     .mobilebanner{max-width: 100%;}
