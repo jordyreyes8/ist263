@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+    function correctanswer (){
+        document.getElementById("correct").style.color = "Green";
+    }
+    function incorrectanswer (){
+        document.getElementById("incorrect").style.color = "Red";
+    }
+</script>
+
+<body>
+    <h1>The unicorn is the national animal of Scotland</h1>
+    <p id="correct" onclick = "correctanswer();">True</p>
+    <p id="incorrect" onclick = "incorrectanswer();">False</p>
+</body>
+</html>
