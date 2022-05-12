@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #e9e5de;
+
+}
+h2 {text-align: center;}
+
+li {display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 120%;
+    text-align;
+}
+
+
+h1, h2 {color: black;
+    font-family: 'Libre Bodoni', serif;
+    font-style: italic;
+}
+p {color: hsl(45, 8%, 10%);
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+a, a:visited, a:hover {color: black;}
+
+nav {background-color: #E45826;
+    padding: 20px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+nav a {color:black;
+text-decoration: none;
+font-family: 'Libre Bodoni', serif;
+font-size: 120%;
+}
+nav a:hover {color: #E6D5B8;}
+
+
+.footertext {float:right;}
+
+
+.contactinfo p {float: left;}
+
+.contactflex {
+    display: flex;
+    justify-content:space-evenly ;
+}
+
+
+.imglogo {width: 50px;}
+
+
+.otherSkills {
+    background-color: #E6D5B8;
+    border-radius: 10px;                /*Creates Rounded Corners*/
+
+
+}
+
+#skip {
+    position: absolute; /*absolute means take it out page flow, use left to set position*/
+    left: -999px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    color: white;
+}
+#skip:focus{
+    left: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;1,600&display=swap');
+
+@media only screen and (max-width: 800px)   {
+    .mobilebanner{max-width: 100%;}
+    nav a {max-width: 100%;
+    display: block;}
+    span {display: none;}
+    }
+
