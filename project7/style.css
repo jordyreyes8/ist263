@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 body {font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #e9e5de;
@@ -12,7 +10,6 @@ li {display:flex;
     justify-content: space-evenly;
     align-items: center;
     font-size: 120%;
-    text-align;
 }
 
 
@@ -76,6 +73,9 @@ nav a:hover {color: #E6D5B8;}
     left: 10px;
 }
 
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;1,600&display=swap');
 
 @media only screen and (max-width: 800px)   {
@@ -84,4 +84,3 @@ nav a:hover {color: #E6D5B8;}
     display: block;}
     span {display: none;}
     }
-
